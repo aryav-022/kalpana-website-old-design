@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    height: 100px;
+    padding: 10px 0;
+    width: 100%;
+    align-items: center;
+}
+
+.soceity-logo {
+    height: 150px;
+    width: 150px;
+}
+
+.soceity-name-container {
+    color: #c2c2c2;
+    font-size: 16px;
+}
+
+.soceity-name {
+    color: #f4f4f4;
+    font-size: 25px;
+}
+
+.navbar ul {
+    display: flex;
+    margin-left: auto;
+    list-style: none;
+    justify-content: space-between;
+    width: 500px;
+    margin-right: 40px;
+    box-sizing: content-box;
+}
+
+.navbar ul li {
+    text-align: center;
+    width: 80px;
+}
+
+.navbar ul li a {
+    font-size: 18px;
+    color: #c2c2c2;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar ul li a.active, .navbar ul li a:hover {
+    color: #f4f4f4;
+    font-weight: 500;
+}

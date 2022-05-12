@@ -1,0 +1,65 @@
+.team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 300px;
+    color: white;
+    background-color: #242424;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Montserrat";
+}
+
+.movable-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 500ms;
+    transform: translateY(40px);
+}
+
+.team-card:hover .movable-container {
+    transform: translateY(-80px);
+}
+
+.member-image {
+    background-size: contain;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid orange;
+    transition-duration: 500ms;
+}
+
+.member-name {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 20px 0 0;
+    transition-duration: 500ms;
+}
+
+.member-status {
+    margin: 3px 0;
+    transition-duration: 500ms;
+}
+
+.member-social {
+    display: grid;
+    font-size: 30px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    opacity: 0;
+    transition-duration: 500ms;
+}
+
+.member-social ion-icon {
+    color: white;
+}
+
+.team-card:hover .member-social {
+    opacity: 1;
+    transform: translateY(-50px);
+}

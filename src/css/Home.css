@@ -1,0 +1,10 @@
+/* This will get changed soon */
+* {
+    color: #f4f4f4;
+}
+
+.temporary {
+    height: calc(100vh - 120px);
+    display: grid;
+    place-items: center;
+}

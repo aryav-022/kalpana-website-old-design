@@ -1,0 +1,11 @@
+.journey-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+}
+
+.structure-maintaing-element {
+    height: 110px;
+    width: 400px;
+    padding: 35px 45px 20px;
+}

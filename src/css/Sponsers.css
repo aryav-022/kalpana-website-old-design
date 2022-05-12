@@ -1,0 +1,6 @@
+.sponsers-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    height: calc(100vh - 220px);
+}

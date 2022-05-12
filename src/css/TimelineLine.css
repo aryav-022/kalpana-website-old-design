@@ -1,0 +1,29 @@
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.ball {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+.time {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 7px 0 0;
+}
+
+.line {
+    height: 20px;
+    width: 5px;
+    background-color: blue;
+    margin: 5px 0;
+}

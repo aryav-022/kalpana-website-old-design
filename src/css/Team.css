@@ -1,0 +1,11 @@
+.team-heading {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0 70px;
+}
+
+.team-container {
+    height: calc(100vh - 250px);
+    display: flex;
+    justify-content: space-evenly;
+}
